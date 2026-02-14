@@ -4,6 +4,7 @@
     "description": "Simplify AOSP building process with run configurations",
     "version": "0.0.1",
     "publisher": "connecthid",
+    "icon": "resources/icon.png",
     "engines": {
         "vscode": "^1.90.0"
     },
@@ -28,7 +29,7 @@
                 {
                     "id": "connecthid-aosp",
                     "title": "ConnectHID AOSP",
-                    "icon": "$(rocket)"
+                    "icon": "resources/activity-bar.svg"
                 }
             ]
         },
