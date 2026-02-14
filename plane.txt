@@ -1,0 +1,11 @@
+Need to create vscode plugin that simplfies the asop buiding process just like we buiding apps in android studio
+
+1) need to create run configations just like android studio for asop
+2) it should take aosp root path
+3) it should take target using dropdown based on aosp root path
+4) it should take device using dropdown based on adb devices
+5) it should have build variant (user, userdebug, eng)
+6) It should take environment variables used in asop build process
+7) It should have option to to select module to build and path to build
+8) It should have option to select build type (clean, incremental, full)
+9) It should have option to build only or build and download using scp to local destination or build and push to device using adb push or install using adb install
